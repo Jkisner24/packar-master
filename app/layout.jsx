@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
       <html lang="en">
         <body className={montserrat.className}>{children}</body>
         <Script
-          src={`https://maps.googleapis.com/maps/api/js?key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}&libraries=places`}
+          src={`https://maps.googleapis.com/maps/api/js?key=${process.env.NEXT_PUBLIC_API_KEY}&libraries=places`}
         ></Script>
      </html>
     </StoreProvider>
